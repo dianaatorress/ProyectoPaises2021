@@ -1,0 +1,179 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/b6/90/2f/b6902f013ded2a698fe2651d3621c146.jpg");
+    background-size: cover;
+}
+
+.continents{
+    margin-left: 550px;
+    margin-top: 50px;
+    /* background-color: rgba(170, 118, 59, 0.884); */
+}
+
+.afri1 {
+    background-image: url("./Proyecto/Imgs/Africa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.afri1:hover {
+    cursor: pointer;
+    background-image: url("https://th.bing.com/th/id/R.a4cf7cdf77b1aba4754a5cb28da68f26?rik=z38Vlu024KOaow&riu=http%3a%2f%2fwww.acclaimclipart.com%2ffree_clipart_images%2fafrica_travel_poster_or_icon_with_the_word_africa_giraffes_and_the_setting_sun_on_the_horizon_0515-1011-2419-5721_SMU.jpg&ehk=lL85LsLGDi59KV21cx271B%2fJqZ4nrS550xlRGTLY7UI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+    background-size: contain;
+}
+
+.ame1 {
+    background-image: url("./Proyecto/Imgs/America.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.ame1:hover {
+    cursor: pointer;
+    background-image: url("./Proyecto/Imgs/ame.png");
+    background-size: contain;
+}
+
+.asia1 {
+    background-image: url("./Proyecto/Imgs/Asia.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.asia1:hover {
+    cursor: pointer;
+    background-image: url("./Proyecto/Imgs/asia.jpg");
+    background-size: contain;
+}
+
+.euro1 {
+    background-image: url("./Proyecto/Imgs/Europa1.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.euro1:hover {
+    cursor: pointer;
+    background-image: url("https://st3.depositphotos.com/2021995/12756/i/950/depositphotos_127562360-stock-photo-europe-colorful-watercolor-and-ink.jpg");
+    background-size: contain;
+}
+
+.oce1 {
+    background-image: url("./Proyecto/Imgs/Oceania.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.oce1:hover {
+    cursor: pointer;
+    background-image: url("https://media.istockphoto.com/vectors/oceania-vector-lettering-decorative-type-vector-id485099582");
+    background-size: contain;
+}
+
+.sabiasque {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.sabiasqueclass {
+    background-image: url("https://st2.depositphotos.com/1036506/11163/i/450/depositphotos_111630940-stock-photo-old-dirty-paper-texture.jpg");
+    /* display: inline-block; */
+    text-align: center;
+    color:rgb(85, 38, 5);
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    /*background-color: burlywood;*/
+    vertical-align: top;
+    border-width: 0px;
+}
+
+.sabiasqueclass:hover {
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.titulo {
+    margin-left: 370px;
+    text-align: center;
+    color:rgb(71, 35, 7);
+    /* text-shadow: 2px 2px #d4b95e; */
+    background-color: rgba(170, 118, 59, 0.884);
+}
+
+/* MODALS */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(99, 64, 25, 0.884); /*Fallback color*/
+    backdrop-filter: blur(16px);
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    /* background-color: #5F4C0B; */
+    background-image: url("https://st2.depositphotos.com/1036506/11163/i/450/depositphotos_111630940-stock-photo-old-dirty-paper-texture.jpg");
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #5F4C0B;
+    width: 60%; /* Could be more or less, depending on screen size */
+    font-size: 20px;
+    color: rgb(85, 38, 5);
+  }
+  
+  /* The Close Button */
+  .close {
+    /* color: #aaa; */
+    color: rgb(85, 38, 5);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(180, 143, 41);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.sabquerandom {
+    border-radius: 500px;
+    margin-left: 670px;
+    border-color: rgb(68, 15, 8);
+    color: rgb(68, 15, 8);
+    background-color: burlywood;
+}
+
+.sabquerandom:hover {
+    cursor: pointer;
+    border-color: burlywood;
+    color: burlywood;
+    background-color: rgb(68, 15, 8);
+}

@@ -1,0 +1,113 @@
+body {
+    background-image: url("./Proyecto/Imgs/Continentes.jpg");
+    background-size: cover;
+}
+
+.principal {
+    width: 50px;
+    height: 50px;
+}
+
+.principal:hover {
+    cursor: pointer;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    margin-right: 50px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.botonPais {
+    margin-top: 50px;
+    border-radius: 25px;
+    background-color: rgb(165, 56, 42);
+    color: burlywood;
+    border-color: rgb(155, 100, 49);
+}
+
+.botonPais:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    color: rgb(165, 56, 42);
+    border-color:rgb(155, 100, 49);
+}
+
+.contmm {
+    margin-right: 80px;
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    font-family: Geneva;
+    font-style: italic;
+    /* color: darkgoldenrod; */
+    text-shadow: 2px 2px rgb(94, 46, 24);
+    color: rgb(163, 124, 73);
+}
+
+.info {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: burlywood;
+    border-style: double;
+    border-color: rgb(68, 15, 8);
+}
+
+.detalles {
+    padding-left: 15px;
+    color: rgb(68, 15, 8);
+}
+
+#bandera {
+    margin-left: 15px;
+}
+
+/* MODALS */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(99, 64, 25, 0.884); /*Fallback color*/
+    backdrop-filter: blur(16px);
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    /* background-color: #5F4C0B; */
+    background-image: url("https://st2.depositphotos.com/1036506/11163/i/450/depositphotos_111630940-stock-photo-old-dirty-paper-texture.jpg");
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #5F4C0B;
+    width: 60%; /* Could be more or less, depending on screen size */
+    font-size: 20px;
+    color: rgb(85, 38, 5);
+  }
+  
+  /* The Close Button */
+  .close {
+    /* color: #aaa; */
+    color: rgb(85, 38, 5);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(180, 143, 41);
+    text-decoration: none;
+    cursor: pointer;
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceanía</title>
+    <link rel="stylesheet" href="./paisesenprivado.css">
+</head>
+<body>
+    <center>
+        <a href="./index.html">
+            <img class="principal" src="https://www.pngarts.com/files/3/Compass-Transparent-Background-PNG.png" alt="Principal">
+        </a>
+        <h1>Bienvenido a Oceanía</h1>
+    </center>
+    <div class="cont">
+        <aside>
+            <button class="botonPais" onclick="traerpais('australia')">Australia</button>
+            <button class="botonPais" onclick="traerpais('fiji')">Fiji</button>
+            <button class="botonPais" onclick="traerpais('marshall islands')">Islas Marshall</button>
+            <button class="botonPais" onclick="traerpais('solomon islands')">Islas Salomón</button>
+            <button class="botonPais" onclick="traerpais('kiribati')">Kiribati</button>
+            <button class="botonPais" onclick="traerpais('micronesia')">Micronesia</button>
+            <button class="botonPais" onclick="traerpais('nauru')">Nauru</button>
+            <button class="botonPais" onclick="traerpais('new zealand')">Nueva Zelanda</button>
+            <button class="botonPais" onclick="traerpais('palau')">Palaos</button>
+            <button class="botonPais" onclick="traerpais('papua new guinea')">Papúa Nueva Guinea</button>
+            <button class="botonPais" onclick="traerpais('samoa')">Samoa</button>
+            <button class="botonPais" onclick="traerpais('east timor')">Timor Oriental</button>
+            <button class="botonPais" onclick="traerpais('tonga')">Tonga</button>
+            <button class="botonPais" onclick="traerpais('tuvalu')">Tuvalu</button>
+            <button class="botonPais" onclick="traerpais('vanuatu')">Vanuatu</button>
+
+        </aside>
+        <img class="contmm" src="./Proyecto/Imgs/OceaníaMM.png" alt="Oceanía continente">
+    </div>
+    <div class="info">
+        <P class="detalles">BANDERA:</P>
+        <img id="bandera">
+        <p class="detalles">NOMBRE: <span id="nombrePais"></span> </p>
+        <P class="detalles">CAPITAL: <span id="capitalPais"></span> </P>
+        <p class="detalles">POBLACIÓN: <span id="poblacion"></span> </p>
+        <p class="detalles">SUBREGIÓN: <span id="subregion"></span> </p>
+    </div>
+    <script src="./paises.js"></script>
+</body>
+</html>
