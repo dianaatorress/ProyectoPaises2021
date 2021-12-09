@@ -1,5 +1,6 @@
 body {
-    background-image: url("./Proyecto/Imgs/Continentes.jpg");
+    /* background-image: url("./Proyecto/Imgs/Continentes.jpg"); */
+    background-image: url("https://i.pinimg.com/originals/3d/82/48/3d824840e79ed63e3d46e8751bdc5907.jpg");
     background-size: cover;
 }
 
@@ -56,7 +57,8 @@ h1 {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    background-color: burlywood;
+    margin-bottom: 50px;
+    background-color: rgba(206, 152, 91, 0.884);
     border-style: double;
     border-color: rgb(68, 15, 8);
 }
@@ -68,6 +70,8 @@ h1 {
 
 #bandera {
     margin-left: 15px;
+    width: 320px;
+    height: 200px;
 }
 
 /* MODALS */

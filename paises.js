@@ -15,17 +15,21 @@ function traerpais(nombrepais) {
   fetch("https://restcountries.com/v3.1/name/" + nombrepais).then(pais => pais.json()).then(infopais => {
     console.log(infopais);
     document.getElementById("bandera").src = infopais[0].flags.png;
-    document.getElementById("nombrePais").innerHTML = infopais[0].name.official;
+    document.getElementById("nombrePais").innerHTML = infopais[0].name.common;
+    document.getElementById("nombreOPais").innerHTML = infopais[0].name.official;
     document.getElementById("capitalPais").innerHTML = infopais[0].capital;
     document.getElementById("poblacion").innerHTML = infopais[0].population;
     document.getElementById("subregion").innerHTML = infopais[0].subregion;
+
+    // document.getElementById("colorbot").style.borderColor = "rgb(180, 143, 41)";
   })
 }
 
 function romania(romania) {
   fetch("https://restcountries.com/v3.1/name/" + romania).then(pais => pais.json()).then(infopais => {
     document.getElementById("bandera").src = infopais[1].flags.png;
-    document.getElementById("nombrePais").innerHTML = infopais[1].name.official;
+    document.getElementById("nombrePais").innerHTML = infopais[1].name.common;
+    document.getElementById("nombreOPais").innerHTML = infopais[1].name.official;
     document.getElementById("capitalPais").innerHTML = infopais[1].capital;
     document.getElementById("poblacion").innerHTML = infopais[1].population;
     document.getElementById("subregion").innerHTML = infopais[1].subregion;
@@ -35,7 +39,8 @@ function romania(romania) {
 function guibissa(guineabissau) {
   fetch("https://restcountries.com/v3.1/name/" + guineabissau).then(pais => pais.json()).then(infopais => {
     document.getElementById("bandera").src = infopais[1].flags.png;
-    document.getElementById("nombrePais").innerHTML = infopais[1].name.official;
+    document.getElementById("nombrePais").innerHTML = infopais[1].name.common;
+    document.getElementById("nombreOPais").innerHTML = infopais[1].name.official;
     document.getElementById("capitalPais").innerHTML = infopais[1].capital;
     document.getElementById("poblacion").innerHTML = infopais[1].population;
     document.getElementById("subregion").innerHTML = infopais[1].subregion;
@@ -45,7 +50,8 @@ function guibissa(guineabissau) {
 function guinea(guinea) {
   fetch("https://restcountries.com/v3.1/name/" + guinea).then(pais => pais.json()).then(infopais => {
     document.getElementById("bandera").src = infopais[2].flags.png;
-    document.getElementById("nombrePais").innerHTML = infopais[2].name.official;
+    document.getElementById("nombrePais").innerHTML = infopais[2].name.common;
+    document.getElementById("nombreOPais").innerHTML = infopais[2].name.official;
     document.getElementById("capitalPais").innerHTML = infopais[2].capital;
     document.getElementById("poblacion").innerHTML = infopais[2].population;
     document.getElementById("subregion").innerHTML = infopais[2].subregion;
@@ -55,10 +61,22 @@ function guinea(guinea) {
 function guiecua(guiecuat) {
   fetch("https://restcountries.com/v3.1/name/" + guiecuat).then(pais => pais.json()).then(infopais => {
     document.getElementById("bandera").src = infopais[3].flags.png;
-    document.getElementById("nombrePais").innerHTML = infopais[3].name.official;
+    document.getElementById("nombrePais").innerHTML = infopais[3].name.common;
+    document.getElementById("nombreOPais").innerHTML = infopais[3].name.official;
     document.getElementById("capitalPais").innerHTML = infopais[3].capital;
     document.getElementById("poblacion").innerHTML = infopais[3].population;
     document.getElementById("subregion").innerHTML = infopais[3].subregion;
+  })
+}
+
+function iran(iran) {
+  fetch("https://restcountries.com/v3.1/name/" + iran).then(pais => pais.json()).then(infopais => {
+    document.getElementById("bandera").src = infopais[1].flags.png;
+    document.getElementById("nombrePais").innerHTML = infopais[1].name.common;
+    document.getElementById("nombreOPais").innerHTML = infopais[1].name.official;
+    document.getElementById("capitalPais").innerHTML = infopais[1].capital;
+    document.getElementById("poblacion").innerHTML = infopais[1].population;
+    document.getElementById("subregion").innerHTML = infopais[1].subregion;
   })
 }
 
